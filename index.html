@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <ul class="demo">
+        <li class="the"><a href="#home">Home</a></li>
+        <li class="the"><a href="#gridview">Grid View</a></li>
+        <li class="the"><a href="#slideview">Slide View</a></li>
+    </ul>
+
+    <section id="home">
+        <h1 id="h1h">
+            Photo Gallery
+        </h1>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <img id="img1" src="flowers.gif" width="50%">
+    </section>
+    <br>
+    <section id="gridview">
+        <h1>Grid View</h1>
+        <br>
+        <span><img class="fru" src="blue.jpg" width="230px"><img class="fru" src="Orange.png" width="230px" height="152.5px"><img class="fru" src="purple.jpg" width="230px"><img class="fru" src="Red%20rose.jpg" width="230px"></span>
+        <div>
+            <span><img class="fru" src="violet.jpg" width="230px" height="152.5"><img class="fru" src="White.jpg" width="230px" height="152.5"><img class="fru" src="yellow.jpg" width="230px" height="152.5"><img class="fru" src="Pink%20tulip.jpg" width="230px" height="152.5px"></span>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id="slideview">
+        <h1>Slide View</h1>
+        <br>
+        <div id="Mycarousel" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <a href="#" target="_blank">
+                            <img src="blue.jpg" class="img-responsive" width="600">
+                        </a>
+                        <div class="carousel-content">
+                            <p>Blue</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <a href="#" target="_blank"></a>
+                        <img class="img-responsive" src="Orange.png" height="200px">
+                    </center>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#Mycarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#Mycarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+
+        </div>
+    </section>
+
+</body></html>
